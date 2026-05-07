@@ -1,0 +1,64 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    
+    cursor: var(--def);
+    
+    scrollbar-color: var(--c1) transparent;
+    scrollbar-width: auto;
+    
+    font-family: 'Courier', monospace;
+    font-size: 0.9em;
+    color: var(--c5);
+    text-shadow: 0 0 1.5px;
+    
+    background: transparent;
+}
+header {
+    text-align: center;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px var(--c6);
+}
+a {
+    cursor: var(--poi);
+    
+    color: var(--links);
+}
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+.manilla {
+    margin: 5px 20px 5px 5px;
+    
+    background: var(--t2);
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 5px var(--t5),
+        inset 0 0 10px var(--t1);
+    
+    overflow: clip;
+}
+.manilla h3 {
+    padding: 5px;
+    
+    text-align: center;
+    
+    background: var(--t1);
+    
+    border-radius: 5px;
+}
+.manilla div.blurb, .manilla p {
+    padding: 5px;
+    
+    text-align: left;
+}
+.manilla h4 {
+    padding: 5px;
+    
+    text-align: right;
+    
+    background: var(--t1);
+    
+    border-radius: 5px;
+}
