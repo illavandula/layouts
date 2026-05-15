@@ -1,0 +1,197 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    
+    cursor: var(--nul);
+    
+    scrollbar-color: var(--c1) transparent;
+    scrollbar-width: auto;
+    
+    font-family: 'Courier', monospace;
+    font-size: 0.9em;
+    color: var(--c5);
+    text-shadow: 0 0 1.5px;
+    
+    background: url('assets/background.png');
+    background-size: cover;
+}
+img {
+    image-rendering: pixelated;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    padding: 5px;
+    margin: 0;
+}
+hr {
+    width: 90%;
+    max-width: 400px;
+    height: 10px;
+    
+    background: linear-gradient(to left, var(--c6), transparent, var(--c6));
+    
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px var(--c5);
+}
+a {
+    cursor: var(--poi);
+    
+    color: var(--links);
+    text-decoration: none;
+}
+#wrapper {
+    margin: 10px auto;
+    
+    cursor: var(--def);
+    
+    max-width: 1000px;
+    max-height: calc(100vh - 150px);
+    
+    background: var(--t2);
+    background-image: var(--texture);
+    background-size: cover;
+    image-rendering: pixelated;
+    backdrop-filter: blur(10px);
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 20px var(--c5),
+        inset 0 0 50px var(--c1);
+    
+    overflow: clip;
+}
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+header {
+    margin: 0px auto 10px;
+    
+    height: 50px;
+    
+    color: var(--c1);
+    text-shadow:
+        0 0 5px var(--c1),
+        0 2px 6px var(--c6),
+        0 4px 7px var(--c5),
+        0 6px 8px var(--c4),
+        0 8px 9px var(--c3),
+        0 10px 10px var(--c2);
+    text-align: right;
+    font-size: 0.8em;
+    
+    align-content: center;
+    
+    background: linear-gradient(to right, var(--t4), var(--c1)),
+        var(--texture);
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: top center;
+    background-size: cover;
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 20px var(--t5),
+        inset 0 0 50px var(--t1);
+}
+header img {
+    width: 88px;
+    height: 31px;
+}
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+main {
+    height: calc(100vh - 270px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav {
+    padding: 0px 20px;
+    display: flex;
+    width: 100%;
+    height: 170px;
+    
+    overflow-x: scroll;
+    overflow-y: clip;
+    
+    box-shadow: 0 2px var(--c4);
+}
+nav img, nav hr {
+    display: none;
+}
+nav a p {
+    margin: 2px 10px;
+    
+    height: 100px;
+    
+    transform: rotate(-35deg);
+    
+    cursor: var(--poi);
+    
+    color: var(--c1);
+    text-align: center;
+    writing-mode: sideways-rl;
+    
+    background: radial-gradient(at center, var(--t4), var(--t5)),
+        var(--texture);
+    background-size: cover;
+    image-rendering: pixelated;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--c6),
+        inset 0 0 1px var(--c6);
+}
+nav a p:hover {
+    color: var(--c5);
+    
+    background: radial-gradient(at center, var(--c1), var(--c2)),
+        var(--texture);
+    background-size: cover;
+    image-rendering: pixelated;
+    
+    box-shadow: 0 0 5px var(--c4),
+        inset 0 0 1px var(--c2);
+}
+#content {
+    height: 100%;
+    width: 100%;
+    
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 20px var(--t5);
+}
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+footer {
+    margin: 0px auto 10px;
+    padding-left: 20px;
+    
+    height: 50px;
+    
+    color: var(--c1);
+    text-shadow:
+        0 0 5px var(--c1),
+        0 2px 6px var(--c6),
+        0 4px 7px var(--c5),
+        0 6px 8px var(--c4),
+        0 8px 9px var(--c3),
+        0 10px 10px var(--c2);
+    text-align: left;
+    
+    align-content: center;
+    
+    background: linear-gradient(to left, var(--t1), var(--c4)),
+        var(--texture);
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: 0px -100px;
+    background-size: cover;
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 20px var(--t5),
+        inset 0 0 50px var(--t1);
+}
+footer img {
+    width: 32px;
+    height: 32px;
+}

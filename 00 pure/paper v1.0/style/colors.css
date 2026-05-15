@@ -1,0 +1,38 @@
+:root {
+    --links: #e00040;
+    
+    --c1: #F0F0A0;
+    --c2: #F0A080;
+    --c3: #A08080;
+    --c4: #804040;
+    --c5: #400040;
+    --c6: #200020;
+
+    --t1: #F0F0A080;
+    --t2: #F0A08080;
+    --t3: #A0808080;
+    --t4: #80404080;
+    --t5: #40004080;
+    --t6: #20002080;
+    
+    --def: url('assets/default.png'), default;
+    --poi: url('assets/pointer.png'), pointer;
+    --nul: url('assets/null.png'), none;
+    
+    --texture: url('assets/texture.png');
+}
+::selection {
+    color: var(--c1);
+    background: var(--t5);
+}
+li::marker {
+    /* &#11212;&nbsp; */
+  content: "\2BCC\00A0";
+}
+/*
+For those poking around out of curiosity,
+have some free wild resources:
+
+https://www.w3schools.com/
+https://developer.mozilla.org/en-US/
+https://www.utf8icons.com/
