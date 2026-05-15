@@ -1,0 +1,450 @@
+html,
+body,
+blockquote,
+pre,
+address,
+kbd,
+tt,
+code,
+var,
+pre,
+samp,
+input,
+textarea,
+button,
+.heading,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+.heading .actions,
+.heading .action,
+.heading span.actions,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted,
+a.work,
+.bookmark .user .meta,
+.prompt .blurb h6,
+.splash .news .meta,
+.datetime,
+span.symbol {
+  font-family: 'Courier', monospace;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+#header .icon,
+#header .logo {
+  display: none;
+}
+
+#header .navigation,
+#footer {
+  background-image: none;
+}
+
+#outer {
+  color: maroon;
+  text-shadow: 0 0 1.5px maroon;
+  background: mintcream;
+}
+
+#header {
+  margin: 5px auto 15px;
+  width: 98%;
+  background: lemonchiffon;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px maroon, 0 5px 0 0 lightpink, 0 10px 0 0 lightcoral, 0 15px 0 maroon;
+}
+
+#header .heading a {
+  font-style: oblique;
+  color: lightpink;
+  text-shadow: 0 2px 2px ivory,
+
+    0 -2px 1px maroon;
+}
+
+#header .primary {
+  background: lightpink;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px maroon, inset 0 0 5px lightcoral;
+}
+
+#header .primary a {
+  color: maroon;
+}
+
+#header .dropdown-menu {
+  background: lemonchiffon;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px maroon, 0 5px 0 0 lightpink, 0 10px 0 0 lightcoral, 0 15px 0 1px maroon;
+  overflow: clip;
+}
+
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
+  background: lemonchiffon;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px lightpink;
+  overflow: clip;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: ivory;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px maroon;
+  overflow: clip;
+}
+
+#header .dropdown:hover a.dropdown-toggle,
+#header .actions a:hover,
+#greeting a:hover {
+  color: maroon;
+  text-shadow: 0 0 2px ivory;
+  background: lightcoral;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px maroon;
+  overflow: clip;
+}
+
+#main .module h3 {
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: lightpink;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 0 0 1px maroon, 0 5px 0 0 lightpink, 0 10px 0 0 lightcoral, 0 15px 0 1px maroon;
+}
+
+#main .module {
+  padding: 0px;
+  background: lemonchiffon;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px maroon;
+}
+
+#main .module .note,
+#main .module .index,
+#main .module .index .heading,
+#main .module .index .meta {
+  padding: 5px;
+}
+
+#main .medium,
+#main .letter,
+#main .blurb {
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: lightpink;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 0 0 1px maroon, 0 5px 0 0 lightpink, 0 10px 0 0 lightcoral, 0 15px 0 maroon;
+}
+
+#main .medium .index,
+#main .letter .index {
+  padding: 5px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  background: lemonchiffon;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 0 0 1px maroon, 0 -5px 0 0 lightpink, 0 -10px 0 0 lightcoral, 0 -15px 0 1px maroon;
+}
+
+#main .blurb .commas,
+#main .blurb blockquote {
+  padding: 5px;
+  color: maroon;
+  background: lemonchiffon;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 0 0 1px maroon;
+}
+
+#main .medium .index a:hover,
+#main .letter .index a:hover {
+  color: maroon;
+  background: linear-gradient(to right, ivory, transparent);
+}
+
+.module a {
+  color: maroon;
+  border-bottom: 1px dotted maroon;
+}
+
+.social .bluesky .resp-sharing-button {
+  padding: 5px;
+  margin-bottom: 20px;
+  color: darkcyan;
+  background: lightcyan;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px darkcyan, 0 5px 0 0 lightcyan, 0 10px 0 0 cyan, 0 15px 0 1px darkcyan;
+}
+
+.social .bluesky svg {
+  color: darkcyan;
+  background: cyan;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px darkcyan;
+}
+
+.social .tumblr .resp-sharing-button {
+  padding: 5px;
+  margin-bottom: 20px;
+  color: darkblue;
+  background: lightblue;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px darkblue, 0 5px 0 0 lightblue, 0 10px 0 0 steelblue, 0 15px 0 1px darkblue;
+}
+
+.social .tumblr svg {
+  color: darkblue;
+  background: steelblue;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px darkblue;
+}
+
+.listbox {
+  margin: 5px auto 25px;
+  width: 98%;
+  background: lemonchiffon;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px maroon;
+}
+
+.index.group {
+  background: ivory;
+  box-shadow: none;
+}
+
+.work.index.group {
+  background: transparent;
+  box-shadow: none;
+}
+
+form .text,
+form .text:hover,
+form .text:focus {
+  box-shadow: inset 0 0 0 1px lightcoral;
+  background: ivory;
+}
+
+form .button,
+#main .actions a,
+#main .index .action,
+.actions input {
+  cursor: pointer;
+  color: maroon !important;
+  text-shadow: inherit;
+  box-shadow: inset 0 0 0 1px lightcoral;
+  background: ivory;
+}
+
+form .button:hover,
+#main .actions a:hover,
+#main .index .action:hover,
+.actions input:hover {
+  color: maroon !important;
+  text-shadow: inherit;
+  box-shadow: inset 0 0 0 1px maroon;
+  background: lemonchiffon;
+}
+
+#main .blurb {
+  color: maroon;
+  margin-bottom: 30px;
+}
+
+#main .blurb .tags .warnings a {
+  padding: 0px 5px;
+  color: lemonchiffon;
+  border-radius: 5px;
+  background: maroon;
+}
+
+#main .blurb .tags .relationships a {
+  padding: 0px 5px;
+  color: maroon;
+  border-radius: 5px;
+  background: lightpink;
+}
+
+#main .blurb .tags .characters a {
+  padding: 0px 5px;
+  color: maroon;
+}
+
+#main .blurb .tags .freeforms a {
+  padding: 0px 5px;
+  color: lightcoral;
+}
+
+#main .blurb .header a:hover,
+#main .blurb .tags .warnings a:hover,
+#main .blurb .tags .relationships a:hover,
+#main .blurb .tags .characters a:hover {
+  color: maroon;
+  border-radius: 5px;
+  background: ivory;
+}
+
+#main .blurb .tags .freeforms a:hover,
+#main .blurb .series a:hover {
+  color: maroon;
+  border-radius: 5px;
+  background: ivory;
+}
+
+#dashboard {
+  margin-top: 20px;
+}
+
+#dashboard ul {
+  border: none;
+}
+
+#dashboard,
+#dashboard.own,
+#work-filters {
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 20px auto 15px;
+  background: lemonchiffon;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px maroon, 0 5px 0 0 lightpink, 0 10px 0 0 lightcoral, 0 15px 0 maroon;
+}
+
+#dashboard .actions .current {
+  color: maroon;
+  background: lightpink;
+  box-shadow: inset 0 0 0 1px maroon;
+}
+
+#dashboard .actions a {
+  color: lightcoral;
+  background: ivory;
+  box-shadow: inset 0 0 0 1px lightcoral;
+}
+
+#dashboard .actions a:hover {
+  color: maroon;
+  background: ivory;
+  box-shadow: inset 0 0 0 1px maroon;
+}
+
+form fieldset {
+  background: lemonchiffon;
+  box-shadow: inset 0 0 0 1px maroon;
+  border: none;
+  border-radius: 5px;
+}
+
+form fieldset input,
+form fieldset select {
+  color: maroon;
+  background: ivory;
+  box-shadow: inset 0 0 0 1px maroon;
+  border: none;
+  border-radius: 5px;
+}
+
+#workskin .module .heading {
+  padding: 5px;
+  background: transparent;
+  box-shadow: none;
+}
+
+#workskin .module.userstuff {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+#kudo_submit {
+  color: maroon;
+  text-shadow: 0 0 5px lightpink;
+  background: ivory;
+  border: none;
+  box-shadow: inset 0 0 0 1px lightcoral, inset 0 0 5px lightpink, 0 0 5px lightpink;
+}
+
+#kudo_submit:hover {
+  color: maroon;
+  text-shadow: 0 0 5px lightpink;
+  background: ivory;
+  border: none;
+  box-shadow: inset 0 0 0 1px lightcoral, inset 0 0 5px lightpink, 0 0 5px 5px lightpink;
+}
+
+#footer {
+  margin: 5px;
+  width: 98%;
+  color: maroon;
+  background: lemonchiffon;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px maroon;
+}
+
+#footer .heading {
+  color: maroon;
+}
+
+#footer a,
+#footer button {
+  color: maroon;
+  text-shadow: 0 0 2px;
+  text-decoration: underline dotted;
+}
+
+.rtf-html-field {
+  background: transparent;
+}
+
+.rtf-html-field #content_ifr {
+  background: ivory;
+  font-family: 'Courier', monospace;
+}
+
+.rtf-html-field #content_LV_validation_message {
+  color: ivory;
+  background: maroon;
+  font-style: oblique;
+}
+
+.rtf-html-field .tox-toolbar {
+  background: lemonchiffon;
+  border: none;
+}
+
+.rtf-html-field .tox-toolbar__group {
+  box-shadow: inset 0 0 0 1px lightpink;
+}
+
+.rtf-html-field .tox-toolbar__group .tox-tbtn:hover {
+  background: lemonchiffon;
+}
+
+.rtf-html-field .tox-toolbar__group .tox-tbtn--disabled:hover {
+  background: transparent;
+}
+
+.rtf-html-field .tox-toolbar__group .tox-tbtn--enabled {
+  background: lightpink;
+}
+
+.tox .tox-statusbar {
+  background: lemonchiffon;
+}
